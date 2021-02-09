@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+# Loops from 1 to 10 and displays diferent texts for 4th, 8th and other iterations 
+n=0
+while [ "$n" -lt 10 ];
+do if [ "$n" -eq 3 ];
+then echo 'bad luck'
+elif [ "$n" -eq 7 ];
+then echo 'good luck'
+else
+echo 'Holberton School'	
+fi
+((n++))
+done

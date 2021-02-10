@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # Displays the content of the current directory in a list format
 for n in *;
-do echo $n | cut -f2 -d'-'
+do echo $n | cut -f2 -d '-'
 done

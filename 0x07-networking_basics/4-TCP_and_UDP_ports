@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# Printing open sockets and their applications and ports
+netstat -lp
